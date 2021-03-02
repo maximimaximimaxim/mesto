@@ -7,9 +7,26 @@
   align-items: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 920px) {
   .profile {
+    padding: 0 27px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .profile {
+    display: grid;
+    grid-template-columns: 120px minmax(1fr, 2fr);
+    gap: 20px;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .profile {
+    padding: 0;
     max-width: 282px;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
