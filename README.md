@@ -1,7 +1,7 @@
 # Яндекс.Практикум
 ## Проектная работа №4. MESTO RUSSIA. Сервис фотогаллерей.
 
-* [Адрес проекта](https://maximimaximimaxim.github.io/russian-travel/index.html)
+* [Адрес проекта](https://maximimaximimaxim.github.io/mesto/index.html)
 
 ### Обзор
 * Поработали с формой и попапами.
