@@ -13,13 +13,14 @@ closePopuoButton.addEventListener('click', showClosePopup);
 let formElement = document.querySelector('.popup__form');
 let nameInput = document.querySelector('.popup__form-item_name');
 let jobInput = document.querySelector('.popup__form-item_job');
+let profileTitle = document.querySelector('.profile__title');
+let profileSubtitle = document.querySelector('.profile__subtitle');
+
 
 function formSubmitHandler (evt) {
     evt.preventDefault();
-    nameInput.value;
-    jobInput.value;
-    document.querySelector('.profile__title').textContent = nameInput.value;
-    document.querySelector('.profile__subtitle').textContent = jobInput.value;
+    profileTitle.textContent = nameInput.value;
+    profileSubtitle.textContent = jobInput.value;
 }
 
 formElement.addEventListener('submit', formSubmitHandler);
