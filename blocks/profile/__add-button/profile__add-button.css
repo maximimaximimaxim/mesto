@@ -14,16 +14,19 @@
   outline: none;
 }
 
+.profile__add-button:hover {
+  opacity: .7;
+}
+
+
 @media screen and (max-width: 750px) {
   .profile__add-button {
     margin-left: 0;
     grid-column-start: 1;
     grid-column-end: 3;
     justify-self: end;
-
   }
 }
-
 
 @media screen and (max-width: 450px) {
   .profile__add-button {
