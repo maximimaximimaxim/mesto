@@ -10,6 +10,7 @@
   position: absolute;
   top: -50px;
   right: -50px;
+  transition: opacity .2s ease-out;
 }
 
 .popup__close-button:focus {
@@ -17,7 +18,7 @@
 }
 
 .popup__close-button:hover {
-  opacity: .7;
+  opacity: .6;
 }
 
 @media screen and (max-width: 600px) {

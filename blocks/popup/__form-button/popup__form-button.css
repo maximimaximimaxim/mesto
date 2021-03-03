@@ -11,10 +11,11 @@
   font-size: 18px;
   line-height: 22px;
   font-family: inherit;
+  transition: opacity .2s ease-out;
 }
 
 .popup__form-button:hover {
-  opacity: .85;
+  opacity: .8;
 }
 
 .popup__form-button:focus {

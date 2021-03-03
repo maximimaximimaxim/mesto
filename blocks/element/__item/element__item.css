@@ -1,4 +1,4 @@
-.elements__item {
+.element__item {
   display: inline-grid;
   grid-template-columns: auto auto;
   justify-content: space-between;

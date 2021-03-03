@@ -1,9 +1,11 @@
-.elements__items {
+.element {
   background-color: #fff;
+  padding-bottom: 31px;
   max-width: 282px;
-  min-height: 361px;
+  /* min-height: 361px; */
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  box-sizing: border-box;
 }

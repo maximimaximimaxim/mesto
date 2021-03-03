@@ -7,7 +7,7 @@
   width: 150px;
   height: 50px;
   background-image: url(../../../images/add-button.svg);
-
+  transition: opacity .2s ease-out;
 }
 
 .profile__add-button:focus {
@@ -15,7 +15,7 @@
 }
 
 .profile__add-button:hover {
-  opacity: .7;
+  opacity: .6;
 }
 
 
@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .profile__add-button {
     width: 282px;
     height: 50px;
